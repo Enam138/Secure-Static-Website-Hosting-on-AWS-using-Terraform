@@ -19,7 +19,13 @@ By combining Infrastructure as Code with AWS managed services, the solution prov
 
 # Business Scenario
 
-Akwannya Hub required a secure and highly available platform for hosting its website. The objective was to eliminate the need for traditional web servers while ensuring fast global content delivery, HTTPS encryption, simplified infrastructure management, and minimal operational overhead.
+Akwannya Hub is a community-driven technology platform that connects students and professionals with scholarships, free technology training, career opportunities, and industry events. As the community continues to grow, the organization requires a secure, scalable, and highly available web presence capable of serving users from different geographic locations while maintaining strong security and performance.
+
+To support these requirements, a cloud-native static website architecture was designed and deployed on Amazon Web Services (AWS). The solution leverages fully managed services to eliminate server administration while providing global content delivery, HTTPS encryption, automatic scalability, and low operational costs.
+
+The website is hosted using Amazon S3 as the storage layer, Amazon CloudFront as the global Content Delivery Network (CDN), Amazon Route 53 for DNS management, and AWS Certificate Manager (ACM) for SSL/TLS certificate provisioning. Infrastructure provisioning and configuration are automated using Terraform, enabling repeatable deployments and Infrastructure as Code (IaC) best practices.
+
+The resulting architecture delivers a secure, production-ready platform that supports Akwannya Hub's mission of making technology resources and opportunities accessible to a broad audience while following AWS Well-Architected Framework principles and cloud security best practices.
 
 The organization wanted an architecture that could:
 
