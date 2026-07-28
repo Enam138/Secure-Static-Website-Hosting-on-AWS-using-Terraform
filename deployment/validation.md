@@ -278,6 +278,6 @@ Operational readiness was confirmed through the following checks.
 
 The deployment validation confirms that the Akwannya Hub static website infrastructure was successfully implemented according to the project requirements.
 
-All core AWS services—including Amazon S3, Amazon CloudFront, Amazon Route 53, and AWS Certificate Manager—were verified to be functioning correctly. Security controls such as Origin Access Control, Block Public Access, HTTPS, and server-side encryption were also validated.
+All core AWS services including Amazon S3, Amazon CloudFront, Amazon Route 53, and AWS Certificate Manager—were verified to be functioning correctly. Security controls such as Origin Access Control, Block Public Access, HTTPS, and server-side encryption were also validated.
 
 The infrastructure provides a secure, scalable, highly available, and production-ready platform for hosting the Akwannya Hub website while adhering to AWS Well-Architected Framework principles and Infrastructure as Code best practices.
